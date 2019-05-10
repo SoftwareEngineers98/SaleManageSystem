@@ -1,0 +1,63 @@
+﻿@model OnlineShop.Models.Customer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Customer</h4>
+        <hr />
+        <table width="500" border="1">
+            <dl class="dl-horizontal">
+                <tr>
+                <td height="50" align="center">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Person.Id)
+                </dt>
+                </td>
+                <td height="50" align="center">
+<dd>
+                    @Html.DisplayFor(model => model.Person.Id)
+                </dd>
+                </td>
+                </tr>
+                <tr>
+                <td height="50" align="center">
+<dt>
+                    @Html.DisplayNameFor(model => model.Type)
+                </dt>
+                </td>
+                <td height="50" align="center">
+<dd>
+                    @Html.DisplayFor(model => model.Type)
+                </dd>
+                </tr>
+                <tr>
+                <td height="50" align="center">
+<dt>
+                    @Html.DisplayNameFor(model => model.Image)
+                </dt>
+                </td>
+                <td height="50" align="center">
+<dd>
+                    @Html.DisplayFor(model => model.Image)
+                </dd>
+                </td>
+                </tr>
+            </dl>
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
