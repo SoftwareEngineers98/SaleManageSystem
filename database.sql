@@ -1,7 +1,7 @@
 USE [master]
 GO
 
-/****** Object:  Database [SaleManagerSystem]    Script Date: 05/11/2019 02:14:06 ق.ظ ******/
+/****** Object:  Database [SaleManagerSystem]    Script Date: 06/08/2019 02:09:11 ق.ظ ******/
 CREATE DATABASE [SaleManagerSystem]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -108,4 +108,5 @@ GO
 
 ALTER DATABASE [SaleManagerSystem] SET  READ_WRITE 
 GO
+
 
