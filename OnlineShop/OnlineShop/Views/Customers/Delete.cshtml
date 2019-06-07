@@ -9,9 +9,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
+    <title>Index</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
+    @{Html.RenderPartial("Menu");}
     <h3>Are you sure you want to delete this?</h3>
     <div>
         <h4>Customer</h4>
@@ -22,47 +26,35 @@
                 <dt>
             <td height="50" align="center">
                 @Html.DisplayNameFor(model => model.Person.Id)
-            
+
                 </dt>
 
                 <dd>
             <td height="50" align="center">
                 @Html.DisplayFor(model => model.Person.Id)
-               
+
             </td>
             </dd>
-                </tr>
-                <tr>
+            </tr>
+            <tr>
                 <dt>
-                    <td height="50" align="center">
-                        @Html.DisplayNameFor(model => model.Type)
-                        </td>
-                    </dt>
-
-                    <dd>
-                    <td height="50" align="center">
-                        @Html.DisplayFor(model => model.Type)
-                    </td>
-                </dd>
-                </tr>
-                <tr>
-                    <dt>
-                    <td height="50" align="center">
-                        @Html.DisplayNameFor(model => model.Image)
-                    </td>
+                <td height="50" align="center">
+                    @Html.DisplayNameFor(model => model.Type)
+                </td>
                 </dt>
 
-                    <dd>
-                    <td height="50" align="center">
-                        @Html.DisplayFor(model => model.Image)
-                    </td>
+                <dd>
+                <td height="50" align="center">
+                    @Html.DisplayFor(model => model.Type)
+                </td>
                 </dd>
-                </tr>
+            </tr>
             </dl>
         </table>
-        @using (Html.BeginForm()) {
+        @using (Html.BeginForm())
+        {
             @Html.AntiForgeryToken()
-    
+
             <div class="form-actions no-color">
                 <input type="submit" value="Delete" class="btn btn-default" /> |
                 @Html.ActionLink("Back to List", "Index")

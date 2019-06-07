@@ -15,10 +15,14 @@ namespace OnlineShop.Controllers
         private ShopContext db = new ShopContext();
 
         // GET: Customers
-        public ActionResult Index()
+        public ActionResult Index(string searchitem)
         {
-            var customer = db.Customer.Include(c => c.Person);
-            return View(customer.ToList());
+            var customers = from p in db.Customer select p;
+            if (!String.IsNullOrEmpty(searchitem))
+            {
+                customers = customers.Where(x => x.Person.UserName.Contains(searchitem));
+            }
+            return View(customers);
         }
 
         // GET: Customers/Details/5
@@ -39,7 +43,7 @@ namespace OnlineShop.Controllers
         // GET: Customers/Create
         public ActionResult Create()
         {
-            ViewBag.PersonId = new SelectList(db.Person, "Id", "Id");
+            ViewBag.PersonId = new SelectList(db.Person, "Id", "UserName");
             return View();
         }
 
@@ -48,7 +52,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,PersonId,Type,Image")] Customer customer)
+        public ActionResult Create([Bind(Include = "Id,PersonId,Type")] Customer customer)
         {
             if (ModelState.IsValid)
             {
@@ -73,7 +77,7 @@ namespace OnlineShop.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.PersonId = new SelectList(db.Person, "Id", "Id", customer.PersonId);
+            ViewBag.PersonId = new SelectList(db.Person, "Id", "UserName", customer.PersonId);
             return View(customer);
         }
 
@@ -82,7 +86,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,PersonId,Type,Image")] Customer customer)
+        public ActionResult Edit([Bind(Include = "Id,PersonId,Type")] Customer customer)
         {
             if (ModelState.IsValid)
             {

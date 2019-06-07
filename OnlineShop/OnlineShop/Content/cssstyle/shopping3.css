@@ -1,0 +1,62 @@
+﻿body {
+}
+div.titr{
+    color:#ffffff;
+    font-size:25px;
+    float:right;
+  line-height:30px;
+    padding-right:350px;
+    padding-top:5px;
+   
+}.lable p{
+     border:1px solid #faf9eb;
+     height:30px;
+     width:100%;
+
+ 
+ }
+
+div.bgtopheader {
+    height: 50px;
+    background-color: #54d7c1;
+    border-radius: 5px 5px;
+}
+.invoicenum{ float: right;
+             background-color:#b4f5ea;
+             width:430px;
+             height:auto;
+    
+     border:2px solid #faf9eb;
+    border-radius:5px 5px;
+    /*padding:20px;*/
+    margin-top:50px;}
+.lable{
+    
+   padding:25px;
+   border-bottom:1px solid#faf9eb;
+   text-align:center;
+}
+.x{
+    margin-right:550px;
+    height:520px;
+
+}
+       .footer{
+    background-color:#676363;
+    float:right;
+    height:100px;
+    width:100%;
+    margin-top:70px;
+  margin-bottom:-30px;
+ 
+}
+
+div.footeritem p{
+    padding-right:10px;
+    color:white;
+    padding-top:30px;
+    text-align:right;
+    float:right;
+    font-size:18px;
+
+}

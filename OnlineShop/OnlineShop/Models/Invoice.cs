@@ -15,7 +15,7 @@ namespace OnlineShop.Models
             Sale = new HashSet<Sale>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public int? CustomerId { get; set; }

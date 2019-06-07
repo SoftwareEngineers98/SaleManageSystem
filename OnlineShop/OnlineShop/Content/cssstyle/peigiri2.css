@@ -1,0 +1,48 @@
+﻿body {
+}
+div.titr{
+    color:#ffffff;
+    font-size:25px;
+    float:right;
+  line-height:30px;
+    padding-right:350px;
+    padding-top:5px;
+   
+}
+
+div.bgtopheader {
+    height: 50px;
+    background-color: #51B4A3;
+    border-radius: 5px 5px;
+}
+.invoicenum{ float: right;
+            
+    margin-right: 600px;
+     border:2px solid#51B4A3;
+    border-radius:5px 5px;
+    padding:20px;
+    margin-top:50px;
+    height:200px;
+    width:250px;
+}.x{
+     height:520px;
+ }
+      .footer{
+    background-color:#676363;
+    float:right;
+    height:100px;
+    width:100%;
+    margin-top:70px;
+  margin-bottom:-30px;
+  
+}
+
+div.footeritem p{
+    padding-right:10px;
+    color:white;
+    padding-top:30px;
+    text-align:right;
+    float:right;
+    font-size:18px;
+
+}

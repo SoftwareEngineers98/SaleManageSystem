@@ -3,56 +3,89 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link href="~/Content/cssstyle/more.css" rel="stylesheet" />
+
 </head>
 <body>
-    <div>
-        <h4>Product</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Name)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Name)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Type)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Type)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Cost)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Cost)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Image)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Image)
-            </dd>
-    
-        </dl>
+    <!--<div class="container-fluid bgtopheader">
+
+        <div class="col-lg-12 col-md-12 titr">
+            <div class="titr">
+               بیشتر بدانید
+
+            </div>
+        </div>
+    </div>-->
+    <div class="container-fluid x">
+        <div class="col-lg-12">
+            <div class="col-lg-3 left">
+
+            </div>
+            <div class="col-lg-4 col-xs-12 main" dir="rtl">
+                <div class="col-lg-3 image">
+                    <img width="250" height="150" src="~/Content/images/@Html.DisplayFor(model => model.Image)" />
+
+                </div>
+                <div class="col-lg-3 name">
+
+                    <p>
+                        @Html.DisplayFor(model => model.Name)
+                    </p>
+                    <div class="col-lg-12 place">
+                        @Html.DisplayFor(model => model.Type)
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 price">
+                    <p>قیمت:</p>
+                    <div class="col-lg-12 place">
+                        @Html.DisplayFor(model => model.Count)
+                    </div>
+                </div>
+                <div class="col-lg-3 des">
+                    <p>
+                        توضیحات:
+                    </p>
+                    <div class="col-lg-12 desplace">
+
+                        @Html.DisplayFor(model => model.Description)
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4 right" dir="rtl">
+
+            </div>
+        </div>
+
+
     </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
+    <div class="container">
+        <div class="col-lg-12 col-xs-12 buttom">
+            <a href="~/Basket/Buy/@Html.DisplayFor(model => model.Id)"><div class="buy">افزودن به سبد خرید</div></a>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+
+
+        <div class="col-lg-5 col-md-5 footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
 </body>
 </html>

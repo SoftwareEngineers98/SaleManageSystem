@@ -19,10 +19,6 @@ namespace OnlineShop.Models
         public virtual DbSet<Person> Person { get; set; }
         public virtual DbSet<Product> Product { get; set; }
         public virtual DbSet<Sale> Sale { get; set; }
-        public virtual DbSet<Order> Order { get; set; }
-        public virtual DbSet<OrderDetail> OrderDetail { get; set; }
-        //public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }

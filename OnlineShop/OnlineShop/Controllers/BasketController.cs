@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using OnlineShop.Models;
 using OnlineShop.ViewModel;
 using Microsoft.AspNet.Identity;
+using System.Data.Entity;
 
 namespace OnlineShop.Controllers
 {
@@ -15,27 +16,65 @@ namespace OnlineShop.Controllers
         // GET: Basket
         public ActionResult Index()
         {
-            List<BasketViewModel> basketcontent = new List<BasketViewModel>();
-            if (Session["ShoppingBasketItem"]!= null)
+            return View();
+        }
+        public ActionResult Final()
+        {
+            return View();
+        }
+        public ActionResult Buy(int id)
+        {
+            BasketViewModel baskets = new BasketViewModel();
+            if (Session["ShoppingBasketItem"] == null)
             {
-                List<ProductInBasket> productsInBasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
-                var dbProducts = db.Product.ToList();
+                List<ProductInBasket> basket = new List<ProductInBasket>();
+                Product product = baskets.FindById(id);
+                ProductInBasket bb = new ProductInBasket();
+                bb.product = product;
 
-                basketcontent = (from pr in dbProducts
-                                join pib in productsInBasket
-                                    on pr.Id equals pib.ProductId
-                                select new BasketViewModel
-                                {
-                                    ProductId = pr.Id,
-                                    ProductName = pr.Name,
-                                    ProductCost = pr.Cost,
-                                    ProductCount = pib.ProductCount,
-                                    TotalCost = pr.Cost * pib.ProductCount
-                                }).ToList();
-                return View(basketcontent);
+                //if (bb.product.Count > 1)
+                //{
+                    bb.ProductCount = 1;
+                    basket.Add(bb);
+                    //Product pro = new Product();
+                    //var Product = from p in db.Product
+                    //              where p.Id == bb.product.Id
+                    //              select p;
+                    //product.Count--;
+                   
+                    //db.SaveChanges();
+
+                    Session["ShoppingBasketItem"] = basket;
+                    //return RedirectToAction("Index");
+                //}
+                //else
+                //{
+                //    ViewBag.error = "از این محصول به تعداد کافی موجود نیست!!!";
+                //    return RedirectToAction("Index", "MainPage");
+                //}
             }
+            else
+            {
 
-            return View(basketcontent);
+                List<ProductInBasket> basket = new List<ProductInBasket>();
+                Product product = baskets.FindById(id);
+                ProductInBasket bb = new ProductInBasket();
+                bb.product = product;
+
+                //if (bb.product.Count > 1)
+                //{
+                    bb.ProductCount = 1;
+                    basket.Add(bb);
+                //}
+                //else
+                //{
+                //    ViewBag.error = "از این محصول به تعداد کافی موجود نیست!!!";
+                //    return RedirectToAction("Index", "MainPage");
+                //}
+                Session["ShoppingBasketItem"] = basket;
+
+            }
+            return RedirectToAction("Index");
         }
         public ActionResult SubCount(int id)
         {
@@ -43,7 +82,7 @@ namespace OnlineShop.Controllers
             {
                 List<ProductInBasket> productsInBasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
 
-                int idd = productsInBasket.FindIndex(p => p.ProductId == id);
+                int idd = productsInBasket.FindIndex(p => p.product.Id == id);
 
                 ProductInBasket item = productsInBasket[idd];
                 if (item.ProductCount == 1)
@@ -65,7 +104,7 @@ namespace OnlineShop.Controllers
             {
                 List<ProductInBasket> productsInBasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
 
-                int idd = productsInBasket.FindIndex(p => p.ProductId == id);
+                int idd = productsInBasket.FindIndex(p => p.product.Id == id);
 
                 ProductInBasket item = productsInBasket[idd];
                 item.ProductCount++;
@@ -79,81 +118,13 @@ namespace OnlineShop.Controllers
             if (Session["ShoppingBasketItem"] != null)
             {
                 List<ProductInBasket> productsInBasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
-                int index = productsInBasket.FindIndex(p => p.ProductId == id);
+                int index = productsInBasket.FindIndex(p => p.product.Id == id);
                 productsInBasket.RemoveAt(index);
                 Session["ShoppingBasketItem"] = productsInBasket;
             }
             return RedirectToAction("Index");
         }
 
-        [Authorize]
-        public ActionResult Finalize()
-        {
-            List<BasketViewModel> basketcontents = new List<BasketViewModel>();
-
-            if (Session["ShoppingBasketItem"] != null)
-            {
-                List<ProductInBasket> productsInbasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
-
-                var dbProducts = db.Product.ToList();
-
-                basketcontents = (from pr in dbProducts
-                                join pir in productsInbasket on pr.Id equals pir.ProductId
-                                select new BasketViewModel
-                                {
-                                    ProductId = pr.Id,
-                                    ProductName = pr.Name,
-                                    ProductCost = pr.Cost,
-                                    ProductCount = pir.ProductCount,
-                                    TotalCost = pr.Cost * pir.ProductCount
-                                }).ToList();
-
-                var userId = User.Identity.GetUserId();
-                Order order = new Order()
-                {
-                    CustomerId = Convert.ToUInt16(userId),
-                    OrderDate = DateTime.Now,
-                    IsFinalized = false
-                };
-
-                db.Order.Add(order);
-
-                foreach (BasketViewModel item in basketcontents)
-                {
-                    db.OrderDetail.Add(new OrderDetail()
-                    {
-                        Id = order.Id,
-                        ProductId = item.ProductId,
-                        Count = item.ProductCount
-                    });
-                }
-                db.SaveChanges();
-
-                Session["ShoppingBasketItem"] = null;
-            }
-
-            return RedirectToAction("Orders");
-        }
-        //[Authorize]
-        //public ActionResult Orders()
-        //{
-        //    var userId = User.Identity.GetUserId();
-
-        //    var userOrders = (from o in db.Order
-        //                      where o.CustomerId == userId
-        //                      select new OrdersViewModel()
-        //                      {
-        //                          OrderID = o.OrderID,
-        //                          OrderDate = o.OrderDate,
-        //                          IsFinalized = o.IsFinalized,
-        //                          OrderTotal = (from od in db.OrderDetails
-        //                                        join p in db.Products on od.ProductID equals p.ProductID
-        //                                        where od.OrderID == o.OrderID
-        //                                        select p.ProductPrice * od.OrderedCount).Sum(),
-        //                          OrderDetails = o.OrderDetails
-        //                      }).ToList();
-
-        //    return View(userOrders);
-        //}
+        
     }
 }

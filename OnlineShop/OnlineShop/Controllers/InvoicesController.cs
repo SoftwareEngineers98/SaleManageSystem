@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using OnlineShop.Models;
+using OnlineShop.ViewModel;
 
 namespace OnlineShop.Controllers
 {
@@ -119,7 +120,52 @@ namespace OnlineShop.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult Finalize()
+        {
+            List<ProductInBasket> productsInBasket = Session["ShoppingBasketItem"] as List<ProductInBasket>;
+            Invoice invoice = new Invoice();
+            invoice.Date = DateTime.Now;
+            invoice.CustomerId = 1;
+            invoice.Code = NewNumber().ToString();
+            invoice.Status = 0;
+            db.Invoice.Add(invoice);
+            db.SaveChanges();
+            foreach (var item in productsInBasket)
+            {
 
+                Sale sale = new Sale();
+                sale.InvoiceId = invoice.Id;
+                sale.Count = item.ProductCount;
+                sale.Fee = item.ProductCount * item.product.Cost;
+                sale.ProductId = item.product.Id;
+                db.Sale.Add(sale);
+                db.SaveChanges();
+            }
+            ViewBag.data = invoice.Code;
+            Session["ShoppingBasketItem"] = null;
+            return View(invoice);
+        }
+        public Random a = new Random();
+
+        public List<int> randomList = new List<int>();
+        int MyNumber = 0;
+        private int NewNumber()
+        {
+            bool aa = false;
+            int MyNumber = 0;
+            while (!aa)
+            {
+                MyNumber = a.Next(1000, 999999999);
+                if (!randomList.Contains(MyNumber))
+                {
+                    randomList.Add(MyNumber);
+                    aa = true;
+                }
+
+            }
+            return MyNumber;
+
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

@@ -159,88 +159,416 @@ C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.O
 C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
 C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
 C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\ApplicationInsights.config
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\csc.exe
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\OnlineShop.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\OnlineShop.pdb
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\EntityFramework.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Owin.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\WebGrease.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\EntityFramework.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
-C:\Users\mina\Desktop\az narmafzar\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Rose\Desktop\azz\SaleManageSystem\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\Rose\Desktop\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Rose\Desktop\New folder (7)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\msi\Documents\Visual Studio 2015\Projects\az\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\Rose\Desktop\New folder (2)\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+I:\123\آز\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+I:\123\آز\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+I:\123\آز\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+I:\123\آز\OnlineShop\OnlineShop\bin\OnlineShop.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+I:\123\آز\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\EntityFramework.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Owin.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\WebGrease.dll
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+I:\123\آز\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\EntityFramework.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+I:\123\آز\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\123\آز\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+I:\123\آز\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+I:\123\آز\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb

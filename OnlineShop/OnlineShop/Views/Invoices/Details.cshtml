@@ -1,58 +1,86 @@
 ﻿@model OnlineShop.Models.Invoice
-
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="~/Content/cssstyle/shopping3.css" rel="stylesheet" />
+
 </head>
 <body>
-    <div>
-        <h4>Invoice</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Customer.Image)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Customer.Image)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Code)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Code)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Date)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Date)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Status)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Status)
-            </dd>
-    
-        </dl>
+    <div class="container-fluid bgtopheader">
+
+        <div class="col-lg-12 col-md-12 titr">
+            <div class="titr">
+                دریافت فاکتور خرید
+
+            </div>
+        </div>
     </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
+    <div class="container-fluid x">
+
+        <div class="col-lg-12 col-md-12 invoicenum">
+            <div class="lable" dir="rtl">
+
+                نام مشتری:
+
+
+                <p>@Html.DisplayFor(model => model.Customer.Person.UserName)</p>
+            </div>
+
+            <div class="lable" dir="rtl">
+
+                شماره پیگیری:
+
+
+
+                <p>@Html.DisplayFor(model => model.Code)</p>
+            </div>
+
+            <div class="lable" dir="rtl">
+                قیمت کل:
+
+
+
+                <p></p>
+            </div>
+            <div class="lable" dir="rtl">
+
+                تاریخ خرید:
+
+                @Html.DisplayFor(model => model.Date)
+
+                <p></p>
+            </div>
+
+            <div class="lable" dir="rtl">
+
+                وضعیت پرداخت:
+
+                @Html.DisplayFor(model => model.Status)
+
+                <p></p>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid footer">
+
+
+        <div class="col-lg-5 col-md-5 footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
 </body>
 </html>

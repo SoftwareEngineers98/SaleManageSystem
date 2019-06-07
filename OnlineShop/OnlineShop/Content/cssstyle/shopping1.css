@@ -1,0 +1,291 @@
+﻿body {
+}
+
+div.inc{
+    border:1px solid #E4F8F5;
+    border-radius:5px 5px 5px;
+width:25px;
+height:40px;
+
+    float:left;
+
+}
+.num{
+    float:left;
+  border:1px solid #E4F8F5;
+width:25px;
+height:40px;
+border-radius:5px 5px 5px;
+}
+
+.num p{
+
+margin-top:-0px;
+text-align:center;
+
+
+}
+.inc p{
+   
+
+    float:left;
+    margin-right:-30px;
+
+   
+ 
+}
+
+  
+ 
+.inc  :hover{
+    color:white;
+}
+
+
+.count p{
+    float:right;
+     text-align:center;
+     padding-right:40px;
+    
+}
+
+div.titr{
+    color:#ffffff;
+    font-size:25px;
+    float:right;
+  line-height:30px;
+    padding-right:350px;
+    padding-top:5px;
+   
+}
+
+
+    
+   div.bgtopheader{
+    height:50px;
+    background-color:#54d7c1;
+    border-radius:5px 5px;
+     
+}
+   .right,left{
+       float:right;
+      
+                width:150px;
+                height:550px;
+   }
+   
+   .fullprice{ border:1px solid #e5e3e3;
+    border-radius:5px 5px 5px;
+width:200px;
+height:40px;
+margin-top:100px;
+margin-left:50px;
+
+   }
+   .fullprice p{
+       padding-left:5px;
+       float:left;
+       color:#808080;
+   }
+   .full{
+       border:1px solid #e5e3e3;
+    border-radius:5px 5px 5px;
+width:150px;
+height:40px;
+float:right;
+   }
+
+   .main{
+       float:right;
+       width:350px;
+       height:470px;
+        border:2px solid #E4F8F5;
+       border-radius:5px 5px 5px;
+       margin-top:50px;
+       margin-bottom:-500px;
+    
+   }
+  
+.count{
+      background: linear-gradient(to bottom right, #ffffff 0%, #54D7C1 110%);
+ /*padding-bottom:20px;*/
+ margin-bottom:10px;
+
+ float:right;
+   width:350px;
+   height:40px;
+    border-bottom:1px solid #e5e3e3;
+   color:#808080;
+     /*margin-bottom:20px;*/
+    text-align:center;
+  
+}
+.name p{  background: linear-gradient(to bottom right, #ffffff 0%, #54D7C1 110%);
+ padding-bottom:7px;
+ padding-top:7px;
+   border-top:1px solid #e5e3e3;
+  border-bottom:1px solid #e5e3e3;
+    
+    color:#808080;
+    text-align:center;
+    margin-top:-3px;
+
+
+}
+.delete{
+   
+ padding-bottom:7px;
+ padding-top:7px;
+  
+    
+    text-align:center;
+    margin-top:-1px;
+}
+.home{
+
+     border:1px solid white;
+     height:40px;
+     width:100px;
+    margin:50px;
+    float:right;
+   
+}
+.home.p{
+
+    color:#808080;
+ float:right;
+}
+home:hover{
+    color:#e5e3e3;
+}
+.button p{
+    text-decoration:none;
+    padding-top:10px;
+    color:#808080;
+    margin-right:-3px;
+     width:350px;
+    height:30px;
+    border:2px solid #E4F8F5;
+    float:right;
+    margin-top:-2px;
+    background: linear-gradient(to bottom right, #ffffff 0%, #54D7C1 110%);
+    border-radius:5px 5px;
+
+}
+.finalprice p{  background: linear-gradient(to bottom right, #ffffff 0%, #54D7C1 110%);
+ padding-bottom:7px;
+ padding-top:7px;
+   border-top:1px solid #e5e3e3;
+  border-bottom:1px solid #e5e3e3;
+    
+    color:#808080;
+    text-align:center;
+    margin-top:-3px;
+
+
+}
+
+.place,num{
+    width:350px;
+        height:25px;
+        text-align:center;
+        color:#808080;
+}
+
+      .buy {
+    float:right;
+    color:#fcf9f9;
+    margin-right:100px;
+    border:2px solid #51c6b2;
+    font-size:18px;
+   padding:2px;
+  position:relative;
+   width:130px;
+   text-align:center;
+   background-color:#51c6b2;
+   border-radius:5px;
+   height:30px;
+ 
+
+}
+      .buy:hover{
+          background-color:#54d7c1;
+
+      }
+.price p{
+   background: linear-gradient(to bottom right, #ffffff 0%, #54D7C1 110%);
+ padding-bottom:7px;
+ padding-top:7px;
+   border-top:1px solid #e5e3e3;
+ 
+     border-bottom:1px solid #e5e3e3;
+     text-align:center;
+        color:#808080;
+        
+
+      
+}
+
+.image{
+  background-color:white;
+
+      
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .right {
+        display: none;
+    }
+
+    .main {
+        display: block;
+    }
+}.shopping{
+    width:100px;
+    height:50px;
+    border:2px solid#54d7c1;
+    float:right;
+    margin-top:200px;
+    margin-right:300px;
+    background-color:#54d7c1;
+    border-radius:5px 5px;
+
+}
+ 
+buttom.a{
+    text-decoration:none;
+}
+.shopping:hover{
+    cursor:pointer;
+    
+    background-color:#62beaf;
+
+
+}   
+.shopping p{
+    text-align:center;
+    color:white;
+}
+    .footer{
+    background-color:#676363;
+    float:right;
+    height:100px;
+    width:100%;
+    margin-top:70px;
+  margin-bottom:-30px;
+  
+}
+
+div.footeritem p{
+    padding-right:10px;
+    color:white;
+    padding-top:30px;
+    text-align:right;
+    float:right;
+    font-size:18px;
+
+}

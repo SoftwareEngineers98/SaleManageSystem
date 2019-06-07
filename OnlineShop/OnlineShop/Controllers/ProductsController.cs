@@ -15,9 +15,15 @@ namespace OnlineShop.Controllers
         private ShopContext db = new ShopContext();
 
         // GET: Products
-        public ActionResult Index()
+        public ActionResult Index(string searchitem)
         {
-            return View(db.Product.ToList());
+            var product = from p in db.Product select p;
+            if (!String.IsNullOrEmpty(searchitem))
+            {
+                product = product.Where(x => x.Name.Contains(searchitem));
+            }
+
+            return View(product);
         }
 
         // GET: Products/Details/5
@@ -46,7 +52,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Type,Cost,Image")] Product product)
+        public ActionResult Create([Bind(Include = "Id,Name,Count,Type,Cost,Description,Image")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +84,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Type,Cost,Image")] Product product)
+        public ActionResult Edit([Bind(Include = "Id,Name,Type,Count,Cost,Description,Image")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -115,6 +121,21 @@ namespace OnlineShop.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult List()
+        {
+            var ProductList = (from a in db.Product select a).ToList();
+            return View(ProductList);
+        }
+        public ActionResult Search(string searchitem)
+        {
+            var product = from p in db.Product select p; 
+            if (!String.IsNullOrEmpty(searchitem))
+            {
+                product = product.Where(x => x.Name.Contains(searchitem));
+            }
+     
+            return View(product);
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using OnlineShop.Models;
+using System.Web.Security;
 
 namespace OnlineShop.Controllers
 {
@@ -46,7 +47,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,Mobile,User,Password,Image")] Person person)
+        public ActionResult Create([Bind(Include = "Id,Mobile,UserName,Password,ConfirmedPassword,Email,Address")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +79,7 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,Mobile,User,Password,Image")] Person person)
+        public ActionResult Edit([Bind(Include = "Id,Mobile,UserName,Password,ConfirmedPassword,Email,Address")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -114,7 +115,52 @@ namespace OnlineShop.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        // Get: People/Login/5
+        public ActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult Login([Bind(Include = "Id,Mobile,UserName,Password,ConfirmedPassword,Email,Address")] Person person)
+        {
 
+            var user1 = from n in db.Person
+                        where n.UserName == person.UserName
+                        select n;
+            var item = user1.FirstOrDefault();
+            if (item != null)
+            {
+                ViewBag.message = "This username is already taken!!";
+                return View("Login");
+            }
+            else if (ModelState.IsValid)
+            {
+                db.Person.Add(person);
+                db.SaveChanges();
+                return RedirectToAction("Index", "MainPage");
+            }
+            return View("Login");
+        }
+
+        public ActionResult Signin()
+        {
+            return View();
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult Signin([Bind(Include = "UserName,Password")] Person person)
+        {
+            var user1 = (from n in db.Person
+                         where n.UserName == person.UserName & n.Password == person.Password
+                         select n).Distinct();
+            if (user1.FirstOrDefault() == null)
+            {
+                ViewBag.message = "You haven't registered yet";
+                return View("Signin");
+            }
+          return RedirectToAction("Index", "MainPage");
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

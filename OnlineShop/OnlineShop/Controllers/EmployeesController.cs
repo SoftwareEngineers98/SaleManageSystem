@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using OnlineShop.Models;
+using static OnlineShop.Models.Employee;
 
 namespace OnlineShop.Controllers
 {
@@ -15,8 +16,13 @@ namespace OnlineShop.Controllers
         private ShopContext db = new ShopContext();
 
         // GET: Employees
-        public ActionResult Index()
+        public ActionResult Index(string searchitem)
         {
+            var product = from p in db.Employee select p;
+            if (!String.IsNullOrEmpty(searchitem))
+            {
+                product = product.Where(x => x.Person.UserName.Contains(searchitem));
+            }
             var employee = db.Employee.Include(e => e.Person);
             return View(employee.ToList());
         }
@@ -39,7 +45,8 @@ namespace OnlineShop.Controllers
         // GET: Employees/Create
         public ActionResult Create()
         {
-            ViewBag.PersonId = new SelectList(db.Person, "Id", "Id");
+           
+            ViewBag.PersonId = new SelectList(db.Person, "Id", "UserName");
             return View();
         }
 
@@ -48,12 +55,15 @@ namespace OnlineShop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,PersonId,Type,Sallary,Image")] Employee employee)
+        public ActionResult Create([Bind(Include = "Id,PersonId,Type,Sallary")] Employee employee)
         {
+           
+
             if (ModelState.IsValid)
             {
-                db.Employee.Add(employee);
-                //db.SaveChanges();
+               
+               db.Employee.Add(employee);
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -73,7 +83,7 @@ namespace OnlineShop.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.PersonId = new SelectList(db.Person, "Id", "Id", employee.PersonId);
+            ViewBag.PersonId = new SelectList(db.Person, "Id", "UserName", employee.PersonId);
             return View(employee);
         }
 
@@ -108,8 +118,7 @@ namespace OnlineShop.Controllers
             }
             return View(employee);
         }
-
-        // POST: Employees/Delete/5
+      
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

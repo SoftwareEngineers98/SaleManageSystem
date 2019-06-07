@@ -1,0 +1,275 @@
+﻿@*<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link href="~/Content/cssstyle/shopping2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid top">
+
+        <div class="col-lg-12 col-md-12 titr">
+            <div class="titr">
+                جزئیات ارسال سفارش
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid x" dir="rtl">
+
+        <div class="col-lg-12">
+
+            <div class="col-lg-6 information">
+
+                <form id="form1" name="form1" method="post">
+                    <p1>آدرس تحویل سفارش</p1>
+                    <p>
+                        <label for="textfield2">استان :</label>
+                        <input type="text" name="textfield2" id="textfield2">
+                    </p>
+                    <p>
+                        <label for="textfield">شهر :</label>
+                        <input type="text" name="textfield" id="textfield">
+                    </p>
+
+                    <p>
+                        <label for="textfield3">نشانی  :</label>
+                        <input type="number" name="textfield3" id="textfield3">
+                    </p>
+                    <p>
+                        <label for="textfield4">کدپستی :</label>
+                        <input type="number" name="textfield4" id="textfield4">
+                    </p>
+                    <p>
+                        <label for="textfield5">شماره تلفن اضطراری:</label>
+                        <input type="number" name="textfield5" id="textfield5">
+                    </p>
+                    <p>
+                        <label for="textfield">نام گیرنده :</label>
+                        <input type="text" name="textfield" id="textfield">
+                    </p>
+
+                    <p>&nbsp;</p>
+                </form>
+
+
+            </div>
+            <div class="col-lg-6 ">
+                <div class="col-lg-3 byhow">
+                    <form>
+                        <p>
+                            <label for="select">شیوه ی ارسال :</label>
+                            <select name="select" id="select">
+                                <option value="پست">پست</option>
+                                <option value="تیپاکس" selected="selected">تیپاکس</option>
+                                <option value="سیطره">سیطره</option>
+
+                            </select>
+                        </p>
+                    </form>
+
+                </div>
+
+                <div class="col-lg-3 bywhen">
+                    <form>
+                        <p>
+                            انتخاب بازه ی زمانی
+                        </p>
+                        <p>
+                            <label for="select">روز:</label>
+                            <select name="select" id="select">
+                                <option value="1" selected="selected">شنبه</option>
+                                <option value="2">یک شنبه</option>
+
+                                <option value="3">دو شنبه</option>
+                                <option value="4">سه شنبه</option>
+                                <option value="5">چهارشنبه</option>
+                                <option value="6">پنج شنبه</option>
+                                <option value="7">جمعه</option>
+
+                            </select>
+                        </p>
+                        <p>
+                            <label for="select">ساعت:</label>
+                            <select name="select" id="select">
+                                <option value="1" selected="selected">8-12</option>
+                                <option value="2">12-16</option>
+
+                                <option value="3">16-20</option>
+                                <option value="4">20-22</option>
+
+
+                            </select>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid buttom" dir="rtl">
+        <a href="~/Invoices/Finalize">
+            <div class="col-lg-12">
+                <div class="insert">
+                    <div class="concept">
+                        ثبت و دریافت کد پیگیری
+
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid footer">
+
+
+        <div class="col-lg-5 col-md-5 footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
+</body>
+</html>*@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link href="~/Content/cssstyle/shopping2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid top">
+
+        <div class="col-lg-12 col-md-12 titr">
+            <div class="titr">
+                جزئیات ارسال سفارش
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid x" dir="rtl">
+
+        <div class="col-lg-12">
+
+            <div class="col-lg-6 information">
+
+                <form id="form1" name="form1" method="post">
+                    <p1>آدرس تحویل سفارش</p1>
+                    <p>
+                        <label for="textfield2">استان :</label>
+                        <input type="text" name="textfield2" id="textfield2">
+                    </p>
+                    <p>
+                        <label for="textfield">شهر :</label>
+                        <input type="text" name="textfield" id="textfield">
+                    </p>
+
+                    <p>
+                        <label for="textfield3">نشانی  :</label>
+                        <input type="number" name="textfield3" id="textfield3">
+                    </p>
+                    <p>
+                        <label for="textfield4">کدپستی :</label>
+                        <input type="number" name="textfield4" id="textfield4">
+                    </p>
+                    <p>
+                        <label for="textfield5">شماره تلفن اضطراری:</label>
+                        <input type="number" name="textfield5" id="textfield5">
+                    </p>
+                    <p>
+                        <label for="textfield">نام گیرنده :</label>
+                        <input type="text" name="textfield" id="textfield">
+                    </p>
+
+                    <p>&nbsp;</p>
+                </form>
+
+
+            </div>
+            <div class="col-lg-6 ">
+                <div class="col-lg-3 byhow">
+                    <form>
+                        <p>
+                            <label for="select">شیوه ی ارسال :</label>
+                            <select name="select" id="select">
+                                <option value="پست">پست</option>
+                                <option value="تیپاکس" selected="selected">تیپاکس</option>
+                                <option value="سیطره">سیطره</option>
+
+                            </select>
+                        </p>
+                    </form>
+
+                </div>
+
+                <div class="col-lg-3 bywhen">
+                    <form>
+                        <p>
+                            انتخاب بازه ی زمانی
+                        </p>
+                        <p>
+                            <label for="select">روز:</label>
+                            <select name="select" id="select">
+                                <option value="1" selected="selected">شنبه</option>
+                                <option value="2">یک شنبه</option>
+
+                                <option value="3">دو شنبه</option>
+                                <option value="4">سه شنبه</option>
+                                <option value="5">چهارشنبه</option>
+                                <option value="6">پنج شنبه</option>
+                                <option value="7">جمعه</option>
+
+                            </select>
+                        </p>
+                        <p>
+                            <label for="select">ساعت:</label>
+                            <select name="select" id="select">
+                                <option value="1" selected="selected">8-12</option>
+                                <option value="2">12-16</option>
+
+                                <option value="3">16-20</option>
+                                <option value="4">20-22</option>
+
+
+                            </select>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid buttom" dir="rtl">
+        <a href="~/Invoices/Finalize">
+            <div class="col-lg-12">
+                <div class="insert">
+                    <div class="concept">
+                        ثبت و دریافت کد پیگیری
+
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid footer">
+
+
+        <div class="col-lg-5 col-md-5 footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
+</body>
+</html>

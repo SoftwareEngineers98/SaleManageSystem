@@ -8,7 +8,7 @@ namespace OnlineShop.Models
 {
     public class Sale
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public int? InvoiceId { get; set; }

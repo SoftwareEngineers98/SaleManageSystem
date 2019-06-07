@@ -13,24 +13,29 @@ namespace OnlineShop.Models
         public Customer()
         {
             Invoice = new HashSet<Invoice>();
-            basket = new HashSet<Order>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public int? PersonId { get; set; }
+        [Display(Name = "نوع کاربری")]
 
-        public int? Type { get; set; }
-
-        [StringLength(50)]
-        public string Image { get; set; }
+        public CustomerType? Type { get; set; }
 
         public virtual Person Person { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Invoice> Invoice { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public ICollection<Order> basket { get; set; }
+    }
+    public enum CustomerType
+    {
+        [Display(Name = "مشتری عالی")]
+        BestCustomer = 1,
+        [Display(Name = "مشتری خوب ")]
+        GoodCustomer = 2,
+        [Display(Name = "مشتری بدحساب")]
+        BadCustomer = 3,
+
     }
 }

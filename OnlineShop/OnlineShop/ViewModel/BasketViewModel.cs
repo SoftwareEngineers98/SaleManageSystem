@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnlineShop.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,13 +10,20 @@ namespace OnlineShop.ViewModel
 {
     public class BasketViewModel
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int ProductId { get; set; }
-        public String ProductName { get; set; }
-        [DisplayFormat(DataFormatString = "{0:#,0 ریال}")]
-        public int ProductCost { get; set; }
-        public int ProductCount { get; set; }
-        [DisplayFormat(DataFormatString = "{0:#,0 ریال}")]
-        public int TotalCost { get; set; }
+        private ShopContext db = new ShopContext();
+        private List<Product> products;
+        public BasketViewModel()
+        {
+        }
+        public List<Product> FindProducts()
+        {
+            var ProductList = (from a in db.Product select a).ToList();
+            return ProductList;
+        }
+        public Product FindById(int id)
+        {
+            var product = db.Product.Find(id);
+            return product;
+        }
     }
 }

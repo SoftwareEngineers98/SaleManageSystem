@@ -1,0 +1,178 @@
+﻿@using OnlineShop.ViewModel
+
+@{
+
+    Layout = null;
+
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>shopping</title>
+    <meta charset="utf-8" />
+
+
+
+
+    <link href="~/Content/cssstyle/shopping1.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid bgtopheader">
+
+        <div class="col-lg-12 col-md-12 titr">
+            <div class="titr">
+                سبد خرید
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid x">
+
+
+      @foreach (var item in (List<ProductInBasket>)Session["ShoppingBasketItem"])
+      {
+
+        <div class="col-lg-12">
+            <div class="col-lg-4 left" dir="rtl">
+
+            </div>
+            <div class="col-lg-4 col-xs-12 main" dir="rtl">
+                <div class="col-lg-3 image">
+                    <img width="250" height="150" class="media-object"
+                         src="~/Content/images/@Html.DisplayFor(modelItem => item.product.Image)" alt="...">
+
+                </div>
+                <div class="col-lg-3 name">
+                    <p>
+                        نام محصول:
+                    </p>
+                    <div class="col-lg-12 place">
+                        @Html.DisplayFor(modelItem => item.product.Name)
+                    </div>
+                </div>
+                <div class="col-lg-3 count">
+                    <p><label for="select">تعداد :</label></p>
+                    <a href="~/Basket/AddCount/@Html.DisplayFor(modelItem => item.product.Id)">
+                        <div class="col-lg-4 inc">
+                            <p>
+
+                                +
+
+                            </p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="col-lg-4 num">
+                            <p>
+                                @Html.DisplayFor(modelItem => item.ProductCount)
+                            </p>
+                        </div>
+                    </a>
+                    <a href="~/Basket/SubCount/@Html.DisplayFor(modelItem => item.product.Id)">
+                        <div class="col-lg-4 inc">
+                            <p>
+                                -
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+
+
+
+                <div class="col-lg-3 price">
+                    <p>قیمت:</p>
+                    <div class="col-lg-12 place">
+                        @Html.DisplayFor(modelItem => item.product.Cost)T
+
+                    </div>
+                </div>
+                <div class="col-lg-3 name">
+                    <p>
+                        قیمت نهایی:
+                    </p>
+                    <div class="col-lg-12 place">
+                        @{ var totals = (item.product.Cost * item.ProductCount).ToString("N0");}
+                        @totals
+
+                    </div>
+                    <div class="col-lg-3 delete">
+                        <div class="button">
+                            <a href="~/Basket/Delete/@Html.DisplayFor(modelItem => item.product.Id)"><p>حذف</p></a>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-4 right">
+
+            </div>
+
+        </div>
+
+
+      }
+
+    </div>
+    @{
+        List<ProductInBasket> cart = (List<ProductInBasket>)Session["ShoppingBasketItem"];
+        var total = cart.Sum(item => item.product.Cost * item.ProductCount);
+    }
+    <div class="col-lg-12" dir="rtl">
+        <div class="fullprice">
+            <p>جمع کل</p>
+            <div class="full">
+                @total
+            </div>
+        </div>
+
+    </div>
+
+    <a href="~/MainPage/Index">
+        <div class="container-fluid home">
+
+            <p>بازگشت به خانه </p>
+
+
+
+
+        </div>
+    </a>
+    <div class="container-fluid buttom" dir="rtl">
+        <a href="~/Basket/Final">
+            <div class="col-lg-12">
+                <div class="shopping">
+
+                    <p>نهایی کردن خرید</p>
+
+
+                </div>
+
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid footer">
+
+
+        <div class="col-lg-5 col-md-5 footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
+    <script src="~/Content/Bs/Font/Script/increment.js"></script>
+</body>
+
+</html>

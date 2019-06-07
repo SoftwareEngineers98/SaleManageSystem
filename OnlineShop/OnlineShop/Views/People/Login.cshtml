@@ -1,0 +1,85 @@
+﻿@model OnlineShop.Models.Person
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>بت نام در دمو</title>
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roya" type="text/css" />
+    <link href="~/Content/cssstyle/signon.css" rel="stylesheet" />
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <h1> صفحه ی ثبت نام  </h1>
+
+            @using (Html.BeginForm("Login", "People", FormMethod.Post))
+            {
+                @Html.EditorFor(m => m.Email, "", new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Email", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "error" })
+                @Html.EditorFor(m => m.UserName, "", new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Username", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "error" })
+                @Html.PasswordFor(m => m.Password, new { htmlAttributes = new { @placeholder = "Password" } })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "error" })
+                @Html.PasswordFor(m => m.ConfirmedPassword, new { htmlAttributes = new { @placeholder = "Confirme Password" } })
+                @Html.ValidationMessageFor(m => m.ConfirmedPassword, "", new { @class = "error" })
+                @Html.EditorFor(m => m.Address, "", new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Address", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(m => m.Address, "", new { @class = "error" })
+                @Html.EditorFor(m => m.Mobile, "", new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "phonenumber", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(m => m.Mobile, "", new { @class = "error" })
+                <input type="submit" value="ثبت نام" />
+            }
+
+
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryval")
+        @if (@ViewBag.Message != null)
+            {
+            <script type="text/javascript">
+            $(function () {
+                alert("@ViewBag.Message")
+            });
+            </script>
+        }
+
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+
+
+
+    <script src="~/Content/Bs/Font/Script/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+﻿@model IEnumerable<OnlineShop.Models.Product>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--created by zeinab bidgoli-->
+<html>
+<head>
+
+
+
+    <title>فروشگاه اینترنتی دمو</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/cssstyle/cssstyle-index.css" rel="stylesheet" />
+    <link href="~/Content/Plugin/Menu/css/component.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="~/Content/Bs/Font/Script/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body class="na-menu-push">
+
+
+
+
+    <!-- my header site  start-->
+
+
+
+    <div class="container-fluid bgtopheader" dir="rtl">
+
+        <div class="col-lg-12 col-md-12  titr">
+
+
+
+            <p><span>فروشگاه اینترنتی  دمو</span></p>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid mymenu">
+
+        <div class="container-fluid navigation">
+            <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="~/People/Signin">ثبت نام/ورود</a></li>
+                <li><a href="~/Basket/Index">سبد خرید</a></li>
+                <li>
+                    <a href="#"> دسته بندی </a>
+                    <ul>
+                        <li><a href="~/MainPage/Index2/3">لوازم جانبی موبایل</a></li>
+                        <li><a href="~/MainPage/Index2/2">موبایل</a></li>
+                        <li><a href="~/MainPage/Index2/4">تلویزیون </a></li>
+                        <li><a href="~/MainPage/Index2/1">کامپیوتر </a></li>
+
+                    </ul>
+                </li>
+                <li><a href="peigiri1.html">پیگیری سفارش</a></li>
+                <li><a href="~/MainPage/ContactUs">تماس با ما</a></li>
+
+
+            </ul>
+
+
+
+
+            <div class="searchbox">
+            @using (Html.BeginForm())
+              {
+               @Html.Editor("searchitem", "", new { htmlAttributes = new { @class = "search", @type = "text", @placeholder = "جستجو کنید ...", @autocomplete = "off" } })
+                <a href="#"> <span class="glyphicon glyphicon-search"></span></a>
+             }
+            </div>
+            </div>
+
+        </div>
+    
+
+    <div class="container-fluid col-lg-12 col-md-12 " dir="rtl">
+
+        <div class="container-fluid last" dir="rtl">
+            <div class="headerlast">
+                <h5>آخرین محصولات</h5>
+            </div>
+
+            <!-- my header site 767px end -->
+            <!-- my mainbody start -->
+
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                div.scroll {
+                    background-color: #ffffff;
+                    overflow: auto;
+                    white-space: nowrap;
+                }
+
+                    div.scroll a {
+                        display: inline-block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px;
+                        text-decoration: none;
+                    }
+            </style>
+
+            <div class="col-lg-12 scroll">
+            @{int a = 7;}
+             @foreach (var item in Model)
+             {
+
+        
+
+
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 mainlastitem" dir="rtl">
+                        <a href="/Products/Details/@Html.DisplayFor(modelItem => item.Id)">
+                            <div class="media">
+                                <div class="media-right">
+
+
+                                    <img width="120" height="120" class="media-object"
+                                         src="~/Content/images/@Html.DisplayFor(modelItem => item.Image)" alt="...">
+
+
+                                </div>
+
+                                <h5 class="media-heading">@Html.DisplayFor(modelItem => item.Type)<br /> @Html.DisplayFor(modelItem => item.Name)<br /> </h5>
+                                <div class="label">
+                                    <p>
+
+                                        @Html.DisplayFor(modelItem => item.Cost)T
+
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <!--<a href="more.html"><div class="col-lg-6 more">بیشتر</div></a>-->
+
+                        @{
+                            a--;
+                            if (a == 0)
+                            { break; }
+                        }
+
+
+                    </div>
+
+                }
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- my mainbody  end-->
+    <!-- myfooter start -->
+    <div class="container-fluid footer">
+
+        <div class="col-lg-7 col-md-7 col-xs-12 col-sm-12 footericon">
+
+        </div>
+        <div class="col-lg-5 col-md-5   footeritem">
+            <p>فروشگاه  اینترنتی دمو با پوشش دهی در حوزه ی لوازم یجیتال  در خدمت گذاری حاضر  است</p>
+        </div>
+
+    </div>
+
+    <!-- myfooter end -->
+    <script src="~/Content/Bs/Font/Script/bootstrap.min.js"></script>
+
+    <script src="~/Content/Bs/Font/Script/jquery-3.1.1.min.js"></script>
+
+    <script src="~/Content/Plugin/Menu/js/menu.js"></script>
+    <!--<script src="Plugin/Menu/js/pushy.js"></script>-->
+
+    <script>
+        //$(function () {
+        //    $('[data-toggle="tooltip"]').tooltip()
+        //})
+        //$("span#showRightPush").click(function () {
+        //    if ($(this).attr("class") == "glyphicon glyphicon-menu-hamburger") {
+        //        $(this).attr("class", "glyphicon glyphicon-remove")
+        //    } else {
+        //        $(this).attr("class", "glyphicon glyphicon-menu-hamburger")
+        //    }
+
+        //})
+
+
+
+
+    </script>
+</body>
+
+</html>
